@@ -1,5 +1,6 @@
-
 #include "chip.h"
+#include "stack.h"
+
 
 void storeNumber(chip8 *c8, unsigned short code){  //For opcode 6XNN where x is the register and NN is the value
 	unsigned char value = (code & 0xFF);

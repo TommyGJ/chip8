@@ -5,6 +5,9 @@
 #include <time.h>
 #include <string.h>
 
+#ifndef CHIP_H			//header guards
+#define CHIP_H
+
 #define MEM_SIZE 4095		//size of memory in bytes on Chip 8.
 #define START_LOCATION 512	//program data can start being stored here 0x200	
 #define REG_LOCATIONS 16	//0 - F
@@ -32,4 +35,4 @@ unsigned short opcode;
 
 
 
-
+#endif
