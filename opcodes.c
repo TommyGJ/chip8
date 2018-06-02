@@ -1,3 +1,4 @@
+
 #include "chip.h"
 
 void storeNumber(chip8 *c8, unsigned short code){  //For opcode 6XNN where x is the register and NN is the value
