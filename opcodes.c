@@ -1,5 +1,5 @@
 #include "chip.h"
-#include "stack.h"
+#include "cpu_helpers.h"
 
 
 void storeNumber(chip8 *c8, unsigned short code){  //For opcode 6XNN where x is the register and NN is the value
@@ -7,6 +7,7 @@ void storeNumber(chip8 *c8, unsigned short code){  //For opcode 6XNN where x is 
 	unsigned char reg = (code >> 8) & 0xF;
 
 	c8 -> dataRegister[reg] = value;
+	pcIncr(c8);
 }
 
 void storeRegValue(chip8 *c8, unsigned short code){	//For opcode 8XY0 where x is the register where the value of y will be stored
@@ -16,6 +17,8 @@ void storeRegValue(chip8 *c8, unsigned short code){	//For opcode 8XY0 where x is
 	unsigned char value = c8 -> dataRegister[regY];
 
 	c8 -> dataRegister[regX] = value;
+	pcIncr(c8);
+
 }
 
 void addNumber(chip8 *c8, unsigned short code){	//For opcode 7XNN where X is the register and NN is the value to be added to the value at X
@@ -29,6 +32,8 @@ void addNumber(chip8 *c8, unsigned short code){	//For opcode 7XNN where X is the
 	sum = (xValue + nValue) % 255;			//mod 255 to keep sum within 8 bits
 
 	c8 -> dataRegister[regX] = sum;
+	pcIncr(c8);
+
 
 }
 
@@ -51,6 +56,8 @@ void addRegister(chip8 *c8, unsigned short code){	//For opcode 8XY4, add the val
 	sum = (xValue + yValue) % 255;			//mod 255 to keep sum within 8 bits
 
 	c8 -> dataRegister[regX] = sum;
+	pcIncr(c8);
+
 
 }	
 
@@ -83,6 +90,8 @@ void subtract(chip8 *c8, unsigned short code){ //For opcode 8XY5 and opcode 8XY7
 	}
 	
 	c8 -> dataRegister[regX] = result;
+	pcIncr(c8);
+
 }
 
 void logicalAND(chip8 *c8, unsigned short code){	//opcode 8XY2. Set register VX to X AND Y.
@@ -93,6 +102,8 @@ void logicalAND(chip8 *c8, unsigned short code){	//opcode 8XY2. Set register VX 
 	unsigned char yValue = c8 -> dataRegister[regY];
 
 	c8 -> dataRegister[regX] = xValue & yValue;
+	pcIncr(c8);
+
 }
 
 void logicalOR(chip8 *c8, unsigned short code){	//opcode 8XY1. Set register VX to X OR Y.
@@ -103,6 +114,8 @@ void logicalOR(chip8 *c8, unsigned short code){	//opcode 8XY1. Set register VX t
 	unsigned char yValue = c8 -> dataRegister[regY];
 
 	c8 -> dataRegister[regX] = xValue | yValue;
+	pcIncr(c8);
+
 }
 
 void logicalXOR(chip8 *c8, unsigned short code){	//opcode 8XY3. Set register VX to X XOR Y.
@@ -113,6 +126,8 @@ void logicalXOR(chip8 *c8, unsigned short code){	//opcode 8XY3. Set register VX 
 	unsigned char yValue = c8 -> dataRegister[regY];
 
 	c8 -> dataRegister[regX] = xValue ^ yValue;
+	pcIncr(c8);
+
 }
 
 void rightShift(chip8 *c8, unsigned short code){	//opcode 8XY6. Shift value in VY right one bit and store it in VX
@@ -123,6 +138,8 @@ void rightShift(chip8 *c8, unsigned short code){	//opcode 8XY6. Shift value in V
 	
 	c8 -> dataRegister[0xF] = yValue & 0x1;		//store least significant bit in VF
 	c8 -> dataRegister[regX] = yValue >> 1;		//store the VY shifter to the right one bit in VX
+	pcIncr(c8);
+
 }
 
 void leftShift(chip8 *c8, unsigned short code){		//opcode 8XY5. Shift value in VY left one bit and store it in VX
@@ -133,6 +150,8 @@ void leftShift(chip8 *c8, unsigned short code){		//opcode 8XY5. Shift value in V
 
 	c8 -> dataRegister[0xF] = (yValue >> 7) & 0x1;		//store the most significant bit in VF.
         c8 -> dataRegister[regX] = yValue << 1;	
+	pcIncr(c8);
+
 }
 
 void randomNum(chip8 *c8, unsigned short code){			//CXNN. Stores a random number in VX that is between 0x00 and 0xFF and is masked with NN
@@ -145,6 +164,8 @@ void randomNum(chip8 *c8, unsigned short code){			//CXNN. Stores a random number
 	r = r & mask;
 
 	c8 -> dataRegister[regX] = r;
+	pcIncr(c8);
+
 }
 
 void jumpAddress(chip8 *c8, unsigned short code){		//For Codes 1NNN and BNNN, where 1NNN jumps to address NNN and BNNN jumps to address NNN + V0
@@ -172,7 +193,7 @@ void jumpAddress(chip8 *c8, unsigned short code){		//For Codes 1NNN and BNNN, wh
 }
 
 void goToSubroutine(chip8 *c8, unsigned short code){	//For opcode 2NNN: execute subroutine starting at NNN	
-	unsigned short returnAddr = c8 -> programCounter + 1;		//this is to avoid an infinite loop. Note: i might change this depending the function to exit a subroutine
+	unsigned short returnAddr = c8 -> programCounter;		//this is to avoid an infinite loop. Note: i might change this depending the function to exit a subroutine
 	c8 -> stack = push(c8 -> stack, returnAddr);
 
 	unsigned short addr = (code & 0xFFF);
@@ -184,8 +205,64 @@ void returnSubroutine(chip8 *c8, unsigned short code){	//For opcode 00EE: return
 	c8 -> programCounter = returnAddr;
 
 	c8 -> stack = pop(c8 -> stack);			//pop this address from the stack
+	pcIncr(c8);   
 
 }
+
+void skipEqual(chip8 *c8, unsigned short code){	//3XNN skip the following instruction if the value of VX equal NN
+	unsigned char regX = (code >> 8) & 0xF;
+	unsigned char xValue = c8 -> dataRegister[regX];
+
+	unsigned char nValue = code & 0xFF;
+
+	if(xValue == nValue){
+		pcIncr(c8);
+	}
+	
+	pcIncr(c8);
+}
+
+void skipNotEqual(chip8 *c8, unsigned short code){	//4XNN skip the following instruction if the value of VX is not equal to NN
+	unsigned char regX = (code >> 8) & 0xF;
+	unsigned char xValue = c8 -> dataRegister[regX];
+
+	unsigned char nValue = code & 0xFF;
+
+	if(xValue != nValue){
+		pcIncr(c8);
+	}
+	
+	pcIncr(c8);
+}
+
+void skipRegEqual(chip8 *c8, unsigned short code){	//5XY0 skip the following instruction if the value of VX equals VY
+	unsigned char regX = (code >> 8) & 0xF;
+	unsigned char regY = (code >> 4) & 0xF;
+
+	unsigned char xValue = c8 -> dataRegister[regX];
+	unsigned char yValue = c8 -> dataRegister[regY];
+
+	if(xValue == yValue){
+		pcIncr(c8);
+	}
+	
+	pcIncr(c8);
+}
+
+void skipRegNotEqual(chip8 *c8, unsigned short code){	//9XY0 skip the following instruction if the value of VX does not equal VY
+	unsigned char regX = (code >> 8) & 0xF;
+	unsigned char regY = (code >> 4) & 0xF;
+
+	unsigned char xValue = c8 -> dataRegister[regX];
+	unsigned char yValue = c8 -> dataRegister[regY];
+
+	if(xValue != yValue){
+		pcIncr(c8);
+	}
+	
+	pcIncr(c8);
+}
+
 
 
 int main(){
@@ -198,14 +275,24 @@ int main(){
 
 	c8.dataRegister[0x0] = 0x11;
 	c8.dataRegister[0xD] = 0x70;
-	goToSubroutine(&c8, 0x2300);
-	goToSubroutine(&c8, 0x2550);
-	
-	printf("%x %x\n", c8.programCounter, c8.stack -> address);	
-	
-	returnSubroutine(&c8, 0x00EE);
-	printf("%x %x\n", c8.programCounter, c8.stack -> address);
+	c8.dataRegister[0xA] = 0x70;
 
+	clock_t begin;
+	int i = 10;	
+	clock_t end;
+	printf("HIT\n");
+	while(i > 0){
+		begin = clock();
+		end = clock();
+		while((end - begin) / CLOCKS_PER_SEC < REFRESH_RATE){
+			end = clock();
+		}
+		printf("SMALLHIT\n");
+			
+		i--;
+	}	
+	printf("HIT\n");
 
-
+		
+		
 }
