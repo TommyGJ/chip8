@@ -171,19 +171,40 @@ void jumpAddress(chip8 *c8, unsigned short code){		//For Codes 1NNN and BNNN, wh
 	}
 }
 
+void goToSubroutine(chip8 *c8, unsigned short code){	//For opcode 2NNN: execute subroutine starting at NNN	
+	unsigned short returnAddr = c8 -> programCounter + 1;		//this is to avoid an infinite loop. Note: i might change this depending the function to exit a subroutine
+	c8 -> stack = push(c8 -> stack, returnAddr);
+
+	unsigned short addr = (code & 0xFFF);
+	c8 -> programCounter = addr;
+}
+
+void returnSubroutine(chip8 *c8, unsigned short code){	//For opcode 00EE: return from subroutine
+	unsigned short returnAddr = c8 -> stack -> address;
+	c8 -> programCounter = returnAddr;
+
+	c8 -> stack = pop(c8 -> stack);			//pop this address from the stack
+
+}
+
 
 int main(){
 
 	chip8 c8;
-
-	c8.programCounter = 0x200;
+	
+	c8.programCounter = 0x20F;
 	memset(c8.dataRegister, 0x00,REG_LOCATIONS * sizeof(char));
 	c8.stack = NULL;
 
 	c8.dataRegister[0x0] = 0x11;
 	c8.dataRegister[0xD] = 0x70;
-
+	goToSubroutine(&c8, 0x2300);
+	goToSubroutine(&c8, 0x2550);
 	
+	printf("%x %x\n", c8.programCounter, c8.stack -> address);	
+	
+	returnSubroutine(&c8, 0x00EE);
+	printf("%x %x\n", c8.programCounter, c8.stack -> address);
 
 
 

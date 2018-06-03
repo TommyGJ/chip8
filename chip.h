@@ -18,7 +18,7 @@ struct linkedList{
 		int location;
 	};
 
-typedef union chip8{
+typedef struct chip8{
 	unsigned short dataMemory[MEM_SIZE];		//Eash instruction is 2 bytes 0x0000 to 0xFFFF
 	unsigned char dataRegister[REG_LOCATIONS];	//Values in each reg are 1 byte. 0x00 to 0xFF
 	unsigned short IRegister;			//16 bits

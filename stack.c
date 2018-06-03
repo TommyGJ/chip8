@@ -5,7 +5,6 @@ struct linkedList *push(struct linkedList *list, unsigned short data){
 	if((newEntry = (struct linkedList *)malloc(sizeof(struct linkedList))) == NULL){
 		exit(0);
 	}
-	
 	newEntry -> next = list;
 	newEntry -> address = data;
 	
