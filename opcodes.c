@@ -282,11 +282,13 @@ int main(){
 	clock_t end;
 	printf("HIT\n");
 	while(i > 0){
-		begin = clock();
-		end = clock();
-		while((end - begin) / CLOCKS_PER_SEC < REFRESH_RATE){
-			end = clock();
-		}
+//		begin = clock();
+//		end = clock();
+//		while(((end - begin) / CLOCKS_PER_SEC) * 1000 < REFRESH_RATE){
+//			end = clock();
+//		}
+//		
+//		SDL_Delay(REFRESH_RATE);
 		printf("SMALLHIT\n");
 			
 		i--;

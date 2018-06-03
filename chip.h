@@ -11,7 +11,7 @@
 #define MEM_SIZE 4095		//size of memory in bytes on Chip 8.
 #define START_LOCATION 512	//program data can start being stored here 0x200	
 #define REG_LOCATIONS 16	//0 - F
-#define REFRESH_RATE (float) .0167	//same as 60hz
+#define REFRESH_RATE (unsigned int) 17	//same as 60hz
 struct linkedList{
 		unsigned short address;
 		struct linkedList *next;
