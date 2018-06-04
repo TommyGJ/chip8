@@ -1,6 +1,6 @@
 #include "chip.h"
 void updateLocations(struct linkedList *, int);
-struct linkedList *push(struct linkedList *list, unsigned short data){
+struct linkedList *push(struct linkedList *list, uint16_t data){
 	struct linkedList *newEntry;
 	if((newEntry = (struct linkedList *)malloc(sizeof(struct linkedList))) == NULL){
 		exit(0);
@@ -44,6 +44,27 @@ void pcIncr(chip8 *c8){
 
 }
 
+void loadMemory(chip8 *c8, char **argv){
+	
+	FILE *rom;
+
+	if((rom = fopen(argv[1], "rb")) == NULL){
+		printf("Cant read file\n");
+		exit(0);
+	}
+
+	uint16_t buffer;
+	int i = START_LOCATION;
+	
+	while(fread(&buffer, sizeof(buffer), 1, rom)){
+		c8 -> dataMemory[i] = ntohs(buffer);
+//		printf("%#06x at location %x\n", c8 -> dataMemory[i], i);
+		i++;
+	}
+	c8 -> dataMemory[i] = '\0';
+	fclose(rom);
+
+}
 /*
 int main(){
 	chip8 c8;

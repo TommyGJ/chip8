@@ -2,16 +2,16 @@ CC = gcc
 
 CFLAGS = -g -Wall 
 
-DEPS = chip.h cpu_helpers.h
+DEPS = chip.h cpu_helpers.h opcodes.h
 
-OBJ = opcodes.o cpu_helpers.o chip.o
+OBJ = opcodes.o cpu_helpers.o chip.o main.o
 
 LIBS = -Iinclude -lpthread -Llib -lSDL2 -lSDL2main -lm
 
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-opcodes: $(OBJ)
+chip8: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS) $(LIBS)
 
 .PHONY: clean
