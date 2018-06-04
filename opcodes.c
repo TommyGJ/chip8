@@ -263,6 +263,28 @@ void skipRegNotEqual(chip8 *c8, unsigned short code){	//9XY0 skip the following 
 	pcIncr(c8);
 }
 
+void setTimer(chip8 *c8, unsigned short code){		//FX15 set the delay timer to the value of register VX
+	unsigned char regX = (code >> 8) & 0xF;
+	unsigned char xValue = c8 -> dataRegister[regX];
+
+	c8 -> delayTimer = xValue;	
+	pcIncr(c8);
+}
+
+void storeTimer(chip8 *c8, unsigned short code){		//FX07 store the value of delay timer in register VX.
+	unsigned char regX = (code >> 8) & 0xF;
+
+	c8 -> dataRegister[regX] = c8 -> delayTimer;
+	pcIncr(c8);
+}
+
+void setSoundTimer(chip8 *c8, unsigned short code){		//FX18 set the sound timer to the value of register VX
+	unsigned char regX = (code >> 8) & 0xF;
+	unsigned char xValue = c8 -> dataRegister[regX];
+
+	c8 -> soundTimer = xValue;	
+	pcIncr(c8);
+}
 
 
 int main(){
@@ -272,29 +294,30 @@ int main(){
 	c8.programCounter = 0x20F;
 	memset(c8.dataRegister, 0x00,REG_LOCATIONS * sizeof(char));
 	c8.stack = NULL;
-
+	chipInit(&c8);
 	c8.dataRegister[0x0] = 0x11;
 	c8.dataRegister[0xD] = 0x70;
 	c8.dataRegister[0xA] = 0x70;
 
-	clock_t begin;
+	SDL_Event event;
 	int i = 10;	
-	clock_t end;
 	printf("HIT\n");
 	while(i > 0){
-//		begin = clock();
-//		end = clock();
-//		while(((end - begin) / CLOCKS_PER_SEC) * 1000 < REFRESH_RATE){
-//			end = clock();
-//		}
-//		
-//		SDL_Delay(REFRESH_RATE);
+		SDL_Delay(REFRESH_RATE);
 		printf("SMALLHIT\n");
 			
 		i--;
 	}	
-	printf("HIT\n");
-
-		
-		
+	while(c8.on){
+		while(SDL_PollEvent(&event)){
+			switch(event.type){
+				case SDL_QUIT: 
+				      	chipQuit(&c8);
+				      	exit(0);
+				case SDL_KEYDOWN:
+				       printf("%d\n", event.key.keysym.sym);
+				       break;
+			}
+		}
+	}
 }

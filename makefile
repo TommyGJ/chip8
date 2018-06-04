@@ -4,9 +4,9 @@ CFLAGS = -g -Wall
 
 DEPS = chip.h cpu_helpers.h
 
-OBJ = opcodes.o cpu_helpers.o
+OBJ = opcodes.o cpu_helpers.o chip.o
 
-LIBS = -lm
+LIBS = -Iinclude -lpthread -Llib -lSDL2 -lSDL2main -lm
 
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
@@ -18,3 +18,4 @@ opcodes: $(OBJ)
 
 clean: 
 	$(RM) *.o *~
+
