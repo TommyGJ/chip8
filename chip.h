@@ -18,6 +18,10 @@
 #define SCREEN_W 64
 #define SCREEN_H 32
 #define SCALE 10
+#define SPRITE_W 8
+#define MAX_SPRITE_H 15
+#define WHITE 0x1
+#define BLACK 0x0
 
 uint16_t htons(uint16_t);
 typedef struct screen{

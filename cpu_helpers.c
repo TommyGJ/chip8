@@ -36,9 +36,11 @@ struct linkedList *pop(struct linkedList *list){
 void pcIncr(chip8 *c8){
 	c8 -> programCounter++;
 	if(c8 -> programCounter < 0x200){	//if an attempt is made to access memory not reserved for the interpreter, quit.
+		printf("attempt to acces memory out of range\n");
 		exit(0);
 	}
 	if(c8 -> programCounter >= 0xFFF){	//if an attempt is made to access memory not inbounds, quit.
+		printf("exceeds memory\n");
 		exit(0);
 	}
 
@@ -64,6 +66,122 @@ void loadMemory(chip8 *c8, char **argv){
 	c8 -> dataMemory[i] = '\0';
 	fclose(rom);
 
+}
+
+int goodkey(int keyInfo){
+	int good = 0;
+	switch(keyInfo){
+		case '1':
+			good = 1;
+			break;
+		case '2':
+			good = 1;
+			break;
+		case '3':
+			good = 1;
+			break;
+		case '4':
+			good = 1;
+			break;
+		case 'q':
+			good = 1;
+			break;
+		case 'w':
+			good = 1;
+			break;
+		case 'e':
+			good = 1;
+			break;
+		case 'r':
+			good = 1;
+			break;
+		case 'a':
+			good = 1;
+			break;
+		case 's':
+			good = 1;
+			break;
+		case 'd':
+			good = 1;
+			break;
+		case 'f':
+			good = 1;
+			break;
+		case 'z':
+			good = 1;
+			break;
+		case 'x':
+			good = 1;
+			break;
+		case 'c':
+			good = 1;
+			break;
+		case 'v':
+			good = 1;
+			break;
+		default:
+			good = 0;
+			break;
+	}
+	return good;
+}
+
+uint8_t determineKey(int keyInfo){
+	uint8_t key;
+	switch(keyInfo){
+		case '1':
+			key = 0x01;
+			break;
+		case '2':
+			key = 0x02;
+			break;
+		case '3':
+			key = 0x03;
+			break;
+		case '4':
+			key = 0x0c;
+			break;
+		case 'q':
+			key = 0x04;
+			break;
+		case 'w':
+			key = 0x05;
+			break;
+		case 'e':
+			key = 0x06;
+			break;
+		case 'r':
+			key = 0x0d;
+			break;
+		case 'a':
+			key = 0x07;
+			break;
+
+		case 's':
+			key = 0x08;
+			break;
+		case 'd':
+			key = 0x09;
+			break;
+		case 'f':
+			key = 0x0E;
+			break;
+		case 'z':
+			key = 0x0A;
+			break;
+		case 'x':
+			key = 0x00;
+			break;
+		case 'c':
+			key = 0x0B;
+			break;
+		case 'v':
+			key = 0x0F;
+			break;
+		default:
+			break;
+	}
+	return key;
 }
 /*
 int main(){

@@ -286,6 +286,56 @@ void setSoundTimer(chip8 *c8, uint16_t code){		//FX18 set the sound timer to the
 	pcIncr(c8);
 }
 
+void waitKeypress(chip8 *c8, uint16_t code){		//FX0A wait for a key press and store the result in register VX
+	SDL_Event keypress;
+	uint8_t regX = (code >> 8) & 0xF;
+
+	int listen = 1;
+	while(listen){
+		while(SDL_PollEvent(&keypress)){
+			switch(keypress.type){
+				case SDL_KEYDOWN:
+					if (goodkey(keypress.key.keysym.sym)){
+						listen = 0;
+						c8 -> dataRegister[regX] = determineKey(keypress.key.keysym.sym);
+					}
+					break;
+				case SDL_QUIT:
+					chipQuit(c8);
+					exit(0);
+					break;
+				default:
+					break;
+			}
+		}
+	}
+	pcIncr(c8);
+}
+
+void skipPress(chip8 *c8, uint16_t code, uint8_t key){	//EX9E skip the following intruction if the key pressed is equal to the value of VX
+	uint8_t regX = (code >> 8) & 0xF;
+	uint8_t xValue = c8 -> dataRegister[regX];
+
+	if(key == xValue){
+		pcIncr(c8);
+	}
+
+	
+	pcIncr(c8);
+}
+
+void skipNotPress(chip8 *c8, uint16_t code, uint8_t key){	//EXA1 skip the following intruction if the key pressed is not equal to the value of VX
+	uint8_t regX = (code >> 8) & 0xF;
+	uint8_t xValue = c8 -> dataRegister[regX];
+
+	if(key != xValue){
+		pcIncr(c8);
+	}
+
+	
+	pcIncr(c8);
+}
+
 /*
 int main(){
 

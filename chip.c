@@ -48,6 +48,7 @@ void chipQuit(chip8 *c8){
 	c8 -> chipScreen.renderer = NULL;
 	c8 -> chipScreen.window = NULL;
 	SDL_Quit();
+	exit(1);
 	printf("chip8 quit\n");
 }
 

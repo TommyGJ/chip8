@@ -11,4 +11,8 @@ struct linkedList *pop(struct linkedList *);
 void pcIncr(chip8 *);
 
 void loadMemory(chip8 *, char ** );
+
+int goodkey(int);
+
+uint8_t determineKey(int);
 #endif
