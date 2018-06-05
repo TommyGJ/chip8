@@ -1,0 +1,1 @@
+void addRegI(chip8 *c8, uint16_t code){		//FX1E add the value stored in register VX to register I

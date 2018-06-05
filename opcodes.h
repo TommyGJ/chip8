@@ -50,5 +50,7 @@ void skipPress(chip8 *, uint16_t, uint8_t);	//EX9E skip the following intruction
 
 void skipNotPress(chip8 *, uint16_t, uint8_t);	//EXA1 skip the following intruction if the key pressed is not equal to the value of VX
 
+void storeMemoryAddress(chip8 *, uint16_t);	//ANNN store memory address NNN in the I register.
 
+void addRegI(chip8 *, uint16_t);		//FX1E add the value stored in register VX to register I
 

@@ -3,7 +3,7 @@
 void chipInit(chip8 *c8){
 	
 	c8 -> programCounter = START_LOCATION;			//starting memory
-	c8 -> IRegister = 0x0;
+	c8 -> iRegister = 0x0;
 	c8 -> delayTimer = 0x0;
 	c8 -> soundTimer = 0x0;
 	c8 -> stack = NULL;

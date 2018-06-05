@@ -336,6 +336,32 @@ void skipNotPress(chip8 *c8, uint16_t code, uint8_t key){	//EXA1 skip the follow
 	pcIncr(c8);
 }
 
+void storeMemoryAddress(chip8 *c8, uint16_t code){	//ANNN store memory address NNN in the I register.
+	uint16_t memAddr = (code & 0xFFF);
+	c8 -> iRegister = memAddr;
+
+	pcIncr(c8);
+}
+
+void addRegI(chip8 *c8, uint16_t code){		//FX1E add the value stored in register VX to register I
+	uint8_t regX = (code >> 8) & 0xF;
+	uint8_t xValue = c8 -> dataRegister[regX];
+	uint16_t iValue = c8 -> iRegister;
+	uint16_t result;
+
+	if((result = xValue + iValue) > MEM_SIZE){
+		c8 -> dataRegister[0xF] = 1;
+		result = result % MEM_SIZE + START_LOCATION;
+	}
+	else{
+		c8 -> dataRegister[0xF] = 0;
+	}
+
+
+	c8 -> iRegister = result;
+	
+}
+
 /*
 int main(){
 

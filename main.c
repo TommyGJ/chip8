@@ -10,9 +10,11 @@ int main(int argc, char **argv){
 	chipInit(&c8);
 	loadMemory(&c8, argv);
 	c8.dataRegister[0xB] = 0x1;
+	c8.iRegister = 0x501;
 	
 
 	SDL_Event event;
+	int i = 0;
 
 	while(c8.on){
 		uint8_t user_entry = 0xFF;		//garbage value that no user can enter
@@ -27,6 +29,11 @@ int main(int argc, char **argv){
 					}
 					break;
 			}
+		}  
+		if(i == 0){
+			addRegI(&c8, 0xFB1E);
+			printf("%x and %x\n", c8.iRegister, c8.dataRegister[0xF]);
+			i++;
 		}
 //		chipQuit(&c8);
 		
