@@ -20,7 +20,7 @@ void logicalXOR(chip8 *, uint16_t );	//opcode 8XY3. Set register VX to X XOR Y.
 
 void rightShift(chip8 *, uint16_t );	//opcode 8XY6. Shift value in VY right one bit and store it in VX
 
-void leftShift(chip8 *, uint16_t );		//opcode 8XY5. Shift value in VY left one bit and store it in VX
+void leftShift(chip8 *, uint16_t );		//opcode 8XYE. Shift value in VY left one bit and store it in VX
 
 void randomNum(chip8 *, uint16_t );			//CXNN. Stores a random number in VX that is between 0x00 and 0xFF and is masked with NN
 

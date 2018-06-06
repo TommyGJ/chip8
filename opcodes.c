@@ -197,6 +197,7 @@ void goToSubroutine(chip8 *c8, uint16_t code){	//For opcode 2NNN: execute subrou
 	c8 -> stack = push(c8 -> stack, returnAddr);
 
 	uint16_t addr = (code & 0xFFF);
+	printf("subroutine at%x\n", addr);
 	c8 -> programCounter = addr;
 }
 

@@ -243,6 +243,168 @@ void loadSprites(uint16_t *sprites, uint16_t *memory){
 
 
 }
+
+void countTimer(chip8 *c8){		//for counting down the delay timer
+	if(c8 -> delayTimer != 0x00){
+		c8 -> delayTimer--;
+	}
+}
+
+uint8_t find(uint16_t opcode){
+
+	switch( (opcode >> 12) & 0xF){
+		case 0x0:
+			switch(opcode & 0xF){
+				case 0x0:
+					if(((opcode >> 4) & 0xF) == 0){
+						return 0;
+					}
+					else{
+						return 1;
+					}
+					break;
+				case 0xE:
+					return 2;
+					break;
+				default:
+					break;
+			}
+			break;
+		case 0x1:
+			return 3;	
+			break;
+		case 0x2:
+			return 4;
+			break;
+		case 0x3:
+			return 5;	
+			break;
+		case 0x4:
+			return 6;	
+			break;
+		case 0x5:
+			return 7;
+			break;
+		case 0x6:
+			return 8;
+			break;
+		case 0x7:
+			return 9;	
+			break;
+		case 0x8:
+			switch(opcode & 0xF){
+				case 0x0:
+					return 10;
+					break;
+				case 0x1:
+					return 11;
+					break;
+				case 0x2:
+					return 12;
+					break;
+				case 0x3:
+					return 13;
+					break;
+				case 0x4:
+					return 14;
+					break;
+				case 0x5:
+					return 15;
+					break;
+				case 0x6:
+					return 16;
+					break;
+				case 0x7:
+					return 17;
+					break;
+				case 0xE:
+					return 18;
+					break;
+				default:
+					break;
+			}
+
+			break;
+		case 0x9:
+			return 19;
+			break;
+		case 0xA:
+			return 20;	
+			break;
+		case 0xB:
+			return 21;	
+			break;
+		case 0xC:
+			return 22;	
+			break;
+		case 0xD:
+			return 23;	
+			break;
+		case 0xE:
+			switch(opcode & 0xF){
+				case 0xE:
+					return 24;	
+					break;
+				case 0x1:
+					return 25;
+					break;
+				default:
+					break;
+			}
+			break;
+		case 0xF:
+			switch((opcode >> 4) & 0xF){
+				case 0x0:
+					switch(opcode & 0xF){
+						case 0x7:
+							return 26;
+							break;
+						case 0xA:
+							return 27;
+							break;
+						default:
+							break;
+					}
+					break;
+				case 0x1:
+					switch(opcode & 0xF){
+						case 0x5:
+							return 28;
+							break;
+						case 0x8:
+							return 29;
+							break;
+						case 0xE:
+							return 30;
+							break;
+						default:
+							break;
+					}
+					break;
+				case 0x2:
+					return 31;
+					break;
+				case 0x3:
+					return 32;
+					break;
+				case 0x5:
+					return 33;	
+					break;
+				case 0x6:
+					return 34;
+					break;
+
+				default:
+					break;
+			}
+
+			break;
+		default:
+			return 0;
+			break;
+	}
+	
+}
 /*
 int main(){
 	chip8 c8;

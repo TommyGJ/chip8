@@ -23,4 +23,8 @@ void getBits(uint8_t *, uint8_t);
 void writeBits(uint8_t *, uint8_t , uint8_t , chip8 *);
 
 void loadSprites(uint16_t *, uint16_t *);
+
+void countTimer(chip8 *);		//for counting down the delay timer
+
+uint8_t find(uint16_t);
 #endif
