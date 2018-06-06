@@ -1,1 +1,0 @@
-void loadi(chip8 *c8, uint16_t code){		//FX64 fill register V0 to VX with data starting at register I;
