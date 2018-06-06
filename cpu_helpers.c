@@ -183,6 +183,66 @@ uint8_t determineKey(int keyInfo){
 	}
 	return key;
 }
+
+void setScreen(screen *cs){
+	SDL_Rect pixel;
+
+	uint8_t xpos = 0;
+	uint8_t ypos = 0;
+
+	for(ypos = 0; ypos < SCREEN_H; ypos++){
+		for(xpos = 0; xpos < SCREEN_W; xpos++){
+			pixel.x = xpos * SCALE;
+			pixel.y = ypos * SCALE;
+			pixel.h = SCALE;
+			pixel.w = SCALE;
+			cs -> display[xpos][ypos] = pixel;
+			if(cs -> binaryDisplay[xpos][ypos] == BLACK){
+				SDL_SetRenderDrawColor(cs -> renderer, 0,0,0,255);
+			}
+			else{
+				SDL_SetRenderDrawColor(cs -> renderer, 255,255,255,255);
+			}	
+			SDL_RenderFillRect(cs -> renderer,&(cs -> display[xpos][ypos])); 
+		}
+	}
+}
+
+void getBits(uint8_t *bits, uint8_t data){
+	int i;
+	int j;
+	for(i = 7, j = 0; i >= 0; i--, j++){
+		bits[i] = (data >> j) & 0x1;
+	}
+	bits[8] = '\0';
+}
+
+void writeBits(uint8_t *bits, uint8_t x, uint8_t y, chip8 *c8){
+	int i;
+	uint8_t flag = 0x00;
+	for(i = 0; i < 8; i++){
+		if(c8 -> chipScreen.binaryDisplay[x + i][y] == bits[i]){
+			c8 -> chipScreen.binaryDisplay[x + i][y] = BLACK;		//if both are white pixels or both are black pixel, the pixel will change to black: XOR mode
+			if(bits[i] == WHITE){
+				flag = 0x01;
+			}
+		}
+		else{
+			c8 -> chipScreen.binaryDisplay[x + i][y] = WHITE; 		//if there are different colors, then the pixel will change to WHITE
+		}
+	}	
+	c8 -> dataRegister[0xF] = flag;
+}
+
+void loadSprites(uint16_t *sprites, uint16_t *memory){
+	uint16_t start;
+
+	for(start = 0x000; sprites[start] != '\0'; start++){
+		memory[start] = sprites[start];
+	}
+
+
+}
 /*
 int main(){
 	chip8 c8;

@@ -359,8 +359,58 @@ void addRegI(chip8 *c8, uint16_t code){		//FX1E add the value stored in register
 
 
 	c8 -> iRegister = result;
+	pcIncr(c8);
 	
 }
+
+void drawSprite(chip8 *c8, uint16_t code){  	//DXYN draw spite at the value stored in VX and VY starting with the memory address stored in I register. N bytes of data
+
+	uint8_t regX = (code >> 8) & 0xF;
+	uint8_t regY = (code >> 4) & 0xF;
+
+	uint8_t xValue = c8 -> dataRegister[regX] % SCREEN_W;
+	uint8_t yValue = c8 -> dataRegister[regY] % SCREEN_H;
+
+	uint8_t nBytes = (code & 0xF);
+
+	uint16_t addr = c8 -> iRegister;
+
+	uint8_t i;
+	uint8_t j;
+	uint8_t byteBits[9];		//8 bits + spot of '\0'
+	uint8_t Byte = 0x00; 
+
+	for(i = 0, j = 0; i < nBytes; i++){	
+		if ((c8 -> dataMemory[addr + j] >> 8)  == 0x00){
+			getBits(byteBits, c8 -> dataMemory[addr + j] & 0xFF);			// if data is of the form 0x00XX, which means there is only one byte
+			j++;
+		}
+		else if (Byte == 0){
+			getBits(byteBits, (c8 -> dataMemory[addr + j] >> 8) & 0xFF);		//Might seem a little crypitc but since each block of memory is 16 bits, i have to split it
+			Byte = c8 -> dataMemory[addr + j] & 0xFF;			//into 8 bit chuncks. The if statements deals with LS 8 bits and else deals with MS 8 bits
+		}
+		else if (Byte != 0){
+			getBits(byteBits, Byte);
+			j++;					//move to next address in memory
+			Byte = 0x00;
+		}
+		writeBits(byteBits,xValue, yValue, c8);
+		yValue++;
+	}	
+	setScreen(&(c8 -> chipScreen));
+	SDL_RenderPresent(c8 -> chipScreen.renderer);
+	pcIncr(c8);
+}
+
+void clearScreen(chip8 *c8, uint16_t code){		// opcode 00E0 clear screen of all pixel data
+
+	memset(c8 -> chipScreen.binaryDisplay,BLACK ,SCREEN_W * SCREEN_H * sizeof(c8 -> chipScreen.binaryDisplay[0][0]));
+	setScreen(&(c8 -> chipScreen));
+	SDL_RenderPresent(c8 -> chipScreen.renderer);
+	pcIncr(c8);
+}
+
+
 
 /*
 int main(){

@@ -15,4 +15,12 @@ void loadMemory(chip8 *, char ** );
 int goodkey(int);
 
 uint8_t determineKey(int);
+
+void setScreen(screen *);
+
+void getBits(uint8_t *, uint8_t);
+
+void writeBits(uint8_t *, uint8_t , uint8_t , chip8 *);
+
+void loadSprites(uint16_t *, uint16_t *);
 #endif

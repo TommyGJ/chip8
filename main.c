@@ -9,15 +9,24 @@ int main(int argc, char **argv){
 	
 	chipInit(&c8);
 	loadMemory(&c8, argv);
-	c8.dataRegister[0xB] = 0x1;
-	c8.iRegister = 0x501;
-	
+	c8.dataRegister[0xB] = 0x3;
+	c8.dataRegister[0xA] = 0xF;
+	c8.dataRegister[0x0] = 0x1F;
+	c8.dataRegister[0x1] = 0xF;
+
+	c8.iRegister = 0x009;
+	drawSprite(&c8, 0xDAB5);
+	SDL_Delay(1000);	
+	drawSprite(&c8, 0xD015);
+	SDL_Delay(1000);	
+	clearScreen(&c8, 0x00E0);
+
 
 	SDL_Event event;
-	int i = 0;
+	uint8_t user_entry; 
 
 	while(c8.on){
-		uint8_t user_entry = 0xFF;		//garbage value that no user can enter
+		user_entry = 0xFF;		//garbage value that no user can enter
 		while(SDL_PollEvent(&event)){
 			switch(event.type){
 				case SDL_QUIT: 
@@ -28,13 +37,13 @@ int main(int argc, char **argv){
 						user_entry = determineKey(event.key.keysym.sym);
 					}
 					break;
-			}
+				default:
+					break;
+			}	
 		}  
-		if(i == 0){
-			addRegI(&c8, 0xFB1E);
-			printf("%x and %x\n", c8.iRegister, c8.dataRegister[0xF]);
-			i++;
-		}
+
+
+		
 //		chipQuit(&c8);
 		
 		

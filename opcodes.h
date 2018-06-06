@@ -54,3 +54,6 @@ void storeMemoryAddress(chip8 *, uint16_t);	//ANNN store memory address NNN in t
 
 void addRegI(chip8 *, uint16_t);		//FX1E add the value stored in register VX to register I
 
+void drawSprite(chip8 *, uint16_t);  	//DXYN draw spite at the value stored in VX and VY starting with N bytes starting with the memory address stored in I register
+
+void clearScreen(chip8 *, uint16_t);	// opcode 00E0 clear screen of all pixel data
