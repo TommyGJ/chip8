@@ -410,6 +410,65 @@ void clearScreen(chip8 *c8, uint16_t code){		// opcode 00E0 clear screen of all 
 	pcIncr(c8);
 }
 
+void setHex(chip8 *c8, uint16_t code){		//FX29 set i register to the hex value stored in register X.
+	uint8_t regX = (code >> 8) & 0xF;
+	uint8_t xValue = c8 -> dataRegister[regX];
+
+	if(xValue < 16){
+		c8 -> iRegister = xValue * 3;
+	}
+	else{
+		printf("attempt to access interpretrer memory\n");
+	}
+	pcIncr(c8);
+
+}
+
+void binDec(chip8 *c8, uint16_t code){		//FX33 set memory address I, I + 1, I + 2 to each of the decimal digits in the number stored at X.
+	uint8_t regX = (code >> 8) & 0xF;
+	uint8_t xValue = c8 -> dataRegister[regX];
+	uint16_t addr = c8 -> iRegister;
+
+
+	uint8_t divisor = 100;
+	int i;
+
+	for(divisor, i = 0; i < 3; divisor /= 10, i++){
+		c8 -> dataMemory[addr + i] = xValue / divisor;
+		xValue = xValue % divisor;
+	}
+	pcIncr(c8);
+
+}
+
+
+void storei(chip8 *c8, uint16_t code){		//FX55 store values of V0 to VX inclusive starting at I in memory. Register I is set to I + X + 1 at the end.
+	uint8_t regX = (code >> 8) & 0xF;
+	uint8_t startReg;
+	uint16_t addr = c8 -> iRegister;
+
+	for(startReg = 0x0; startReg <= regX; startReg++){
+		c8 -> dataMemory[addr + startReg] = c8 -> dataRegister[startReg];
+	}
+	c8 -> iRegister = addr + regX + 1;
+	pcIncr(c8);
+}
+
+void loadi(chip8 *c8, uint16_t code){		//FX65 fill register V0 to VX with data starting at register I;
+	uint8_t regX = (code >> 8) & 0xF;
+	uint8_t startReg;
+	uint16_t addr = c8 -> iRegister;
+
+	for(startReg = 0x0; startReg <= regX; startReg++){
+		if(c8 -> dataMemory[addr + startReg] <= 0xFF){
+			 c8 -> dataRegister[startReg] = c8 -> dataMemory[addr + startReg];
+		}
+	}
+	c8 -> iRegister = addr + regX + 1;
+	pcIncr(c8);
+
+}
+
 
 
 /*

@@ -57,3 +57,11 @@ void addRegI(chip8 *, uint16_t);		//FX1E add the value stored in register VX to 
 void drawSprite(chip8 *, uint16_t);  	//DXYN draw spite at the value stored in VX and VY starting with N bytes starting with the memory address stored in I register
 
 void clearScreen(chip8 *, uint16_t);	// opcode 00E0 clear screen of all pixel data
+
+void setHex(chip8 *, uint16_t);		//FX29 set i register to the hex value stored in register X.
+
+void binDec(chip8 *, uint16_t);		//FX33 set memory address I, I + 1, I + 2 to each of the decimal digits in the number stored at X.
+
+void storei(chip8 *, uint16_t);		//FX55 store values of V0 to VX inclusive starting at I in memory. Register I is set to I + X + 1 at the end.
+
+void loadi(chip8 *, uint16_t);		//FX65 fill register V0 to VX with data starting at register I;

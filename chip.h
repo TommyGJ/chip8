@@ -17,7 +17,7 @@
 #define REFRESH_RATE (unsigned int) 17	//same as 60hz
 #define SCREEN_W 64		//64 pixels wide
 #define SCREEN_H 32		//32 pixels in height
-#define SCALE 20
+#define SCALE 30
 #define SPRITE_W 8		//all sprites mush be 8 pixels in width
 #define MAX_SPRITE_H 15		//between 1 and 15 pixels in height
 #define WHITE 0x1
