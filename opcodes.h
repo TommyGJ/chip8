@@ -44,11 +44,11 @@ void storeTimer(chip8 *, uint16_t );		//FX07 store the value of delay timer in r
 
 void setSoundTimer(chip8 *, uint16_t );		//FX18 set the sound timer to the value of register VX
 
-void waitKeypress(chip8 *, uint16_t );		//FX0A wait for a key press and store the result in register VX
+void waitKeypress(chip8 *, uint16_t);		//FX0A wait for a key press and store the result in register VX
 
-void skipPress(chip8 *, uint16_t, uint8_t);	//EX9E skip the following intruction if the key pressed is equal to the value of VX
+void skipPress(chip8 *, uint16_t);	//EX9E skip the following intruction if the key pressed is equal to the value of VX
 
-void skipNotPress(chip8 *, uint16_t, uint8_t);	//EXA1 skip the following intruction if the key pressed is not equal to the value of VX
+void skipNotPress(chip8 *, uint16_t);	//EXA1 skip the following intruction if the key pressed is not equal to the value of VX
 
 void storeMemoryAddress(chip8 *, uint16_t);	//ANNN store memory address NNN in the I register.
 

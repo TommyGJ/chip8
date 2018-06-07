@@ -8,13 +8,13 @@ struct linkedList *push(struct linkedList *, uint16_t);
 
 struct linkedList *pop(struct linkedList *);
 
+void printStack(struct linkedList *);
+
 void pcIncr(chip8 *);
 
 void loadMemory(chip8 *, char ** );
 
-int goodkey(int);
-
-uint8_t determineKey(int);
+uint16_t RegToScancode(uint8_t);
 
 void setScreen(screen *);
 

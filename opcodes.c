@@ -288,36 +288,110 @@ void setSoundTimer(chip8 *c8, uint16_t code){		//FX18 set the sound timer to the
 }
 
 void waitKeypress(chip8 *c8, uint16_t code){		//FX0A wait for a key press and store the result in register VX
-	SDL_Event keypress;
+//	SDL_Event keypress;
 	uint8_t regX = (code >> 8) & 0xF;
+	const Uint8 *states = SDL_GetKeyboardState( NULL );
 
-	int listen = 1;
-	while(listen){
-		while(SDL_PollEvent(&keypress)){
-			switch(keypress.type){
-				case SDL_KEYDOWN:
-					if (goodkey(keypress.key.keysym.sym)){
-						listen = 0;
-						c8 -> dataRegister[regX] = determineKey(keypress.key.keysym.sym);
-					}
-					break;
-				case SDL_QUIT:
-					chipQuit(c8);
-					exit(0);
-					break;
-				default:
-					break;
-			}
-		}
+	uint8_t pressed = 0;
+	
+	if(states[SDL_SCANCODE_1]){
+		pressed = 1;
+		c8 -> dataRegister[regX] = 0x01;
 	}
-	pcIncr(c8);
-}
+	else if(states[SDL_SCANCODE_2]){
+		pressed = 1;
+		c8 -> dataRegister[regX] = 0x02;
+	}
 
-void skipPress(chip8 *c8, uint16_t code, uint8_t key){	//EX9E skip the following intruction if the key pressed is equal to the value of VX
+	else if(states[SDL_SCANCODE_3]){
+		pressed = 1;
+		c8 -> dataRegister[regX] = 0x03;
+	}
+	else if(states[SDL_SCANCODE_4]){
+		pressed = 1;
+		c8 -> dataRegister[regX] = 0x0C;
+	}
+	else if(states[SDL_SCANCODE_Q]){
+		pressed = 1;
+		c8 -> dataRegister[regX] = 0x04;
+	}
+	else if(states[SDL_SCANCODE_W]){
+		pressed = 1;
+		c8 -> dataRegister[regX] = 0x05;
+	}
+	else if(states[SDL_SCANCODE_E]){
+		pressed = 1;
+		c8 -> dataRegister[regX] = 0x06;
+	}
+	else if(states[SDL_SCANCODE_R]){
+		pressed = 1;
+		c8 -> dataRegister[regX] = 0x0D;
+	}
+	else if(states[SDL_SCANCODE_A]){
+		pressed = 1;
+		c8 -> dataRegister[regX] = 0x07;
+	}
+	else if(states[SDL_SCANCODE_S]){
+		pressed = 1;
+		c8 -> dataRegister[regX] = 0x08;
+	}
+	else if(states[SDL_SCANCODE_D]){
+		pressed = 1;
+		c8 -> dataRegister[regX] = 0x09;
+	}
+	else if(states[SDL_SCANCODE_F]){
+		pressed = 1;
+		c8 -> dataRegister[regX] = 0x0E;
+	}
+	else if(states[SDL_SCANCODE_Z]){
+		pressed = 1;
+		c8 -> dataRegister[regX] = 0x0A;
+	}
+	else if(states[SDL_SCANCODE_X]){
+		pressed = 1;
+		c8 -> dataRegister[regX] = 0x00;
+	}
+	else if(states[SDL_SCANCODE_C]){
+		pressed = 1;
+		c8 -> dataRegister[regX] = 0x0B;
+	}
+	else if(states[SDL_SCANCODE_V]){
+		pressed = 1;
+		c8 -> dataRegister[regX] = 0x0F;
+	}
+
+//	int listen = 1;
+//	while(listen){
+//		while(SDL_PollEvent(&keypress)){
+//			switch(keypress.type){
+//				case SDL_KEYDOWN:
+//					if (goodkey(keypress.key.keysym.sym)){
+//						listen = 0;
+//						c8 -> dataRegister[regX] = determineKey(keypress.key.keysym.sym);
+//					}
+//					break;
+//				case SDL_QUIT:
+//					chipQuit(c8);
+//					exit(0);
+//					break;
+//				default:
+//					break;
+//			}
+//		}
+//	}
+//	
+	if (pressed == 1){
+		pcIncr(c8);
+	}
+}
+	
+
+void skipPress(chip8 *c8, uint16_t code){	//EX9E skip the following intruction if the key pressed is equal to the value of VX
 	uint8_t regX = (code >> 8) & 0xF;
 	uint8_t xValue = c8 -> dataRegister[regX];
+	const Uint8 *states = SDL_GetKeyboardState( NULL );
 
-	if(key == xValue){
+	if(states[RegToScancode(xValue)]){
 		pcIncr(c8);
 	}
 
@@ -328,11 +402,11 @@ void skipPress(chip8 *c8, uint16_t code, uint8_t key){	//EX9E skip the following
 void skipNotPress(chip8 *c8, uint16_t code, uint8_t key){	//EXA1 skip the following intruction if the key pressed is not equal to the value of VX
 	uint8_t regX = (code >> 8) & 0xF;
 	uint8_t xValue = c8 -> dataRegister[regX];
+	const Uint8 *states = SDL_GetKeyboardState( NULL );
 
-	if(key != xValue){
+	if(!states[RegToScancode(xValue)]){
 		pcIncr(c8);
 	}
-
 	
 	pcIncr(c8);
 }

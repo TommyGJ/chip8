@@ -23,7 +23,7 @@
 #define WHITE 0x1
 #define BLACK 0x0
 
-uint16_t htons(uint16_t);	//used to convert to big endian
+//uint16_t htons(uint16_t);	//used to convert to big endian
 typedef struct screen{
 	const char *name;
 	SDL_Window *window;

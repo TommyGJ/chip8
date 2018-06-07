@@ -33,23 +33,19 @@ int main(int argc, char **argv){
 */
 
 	SDL_Event event;
-	uint8_t user_entry; 
 	uint16_t instruction;
 
 	while(c8.on){
 		instruction = (c8.dataMemory[c8.programCounter] << 8) | c8.dataMemory[c8.programCounter + 1];
-//		printf("|%x at %x|\n", instruction, c8.programCounter);
-		user_entry = 0xFF;		//garbage value that no user can enter
+		printf("|%x at %x|\n", instruction, c8.programCounter);
+//		printStack(c8.stack);
+//		printf("HIT\n");
 		while(SDL_PollEvent(&event)){
 			switch(event.type){
 				case SDL_QUIT: 
 				      	chipQuit(&c8);
 				      	exit(0);
-				case SDL_KEYDOWN:
-					if(goodkey(event.key.keysym.sym)){
-						user_entry = determineKey(event.key.keysym.sym);
-					}
-					break;
+			
 				default:
 					break;
 			}	
@@ -157,11 +153,11 @@ int main(int argc, char **argv){
 				// DXYN
 				break;
 			case 24:
-				skipPress(&c8, instruction, user_entry);
+				skipPress(&c8, instruction);
 				// EX9E
 				break;
 			case 25:
-				skipNotPress(&c8, instruction, user_entry);
+				skipNotPress(&c8, instruction);
 				// EXA1
 				break;
 			case 26:
@@ -222,9 +218,10 @@ int main(int argc, char **argv){
 		printf("Ve = %x ", c8.dataRegister[0xE]);
 		printf("Vf = %x\n", c8.dataRegister[0xF]);
 		printf("I = %x\n", c8.iRegister);
+
 */
 
-		SDL_Delay(REFRESH_RATE);
+		SDL_Delay(8);
 		countTimer(&c8);
 	}
 }

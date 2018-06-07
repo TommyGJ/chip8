@@ -33,6 +33,12 @@ struct linkedList *pop(struct linkedList *list){
 	return newHead;
 
 }
+void printStack(struct linkedList *list){
+	if(list != NULL){
+		printf("stack info: %i %x\n", list -> location, list -> address);
+		printStack(list -> next);
+	}
+}
 void pcIncr(chip8 *c8){
 	c8 -> programCounter += 2;
 	if(c8 -> programCounter < 0x200){	//if an attempt is made to access memory not reserved for the interpreter, quit.
@@ -68,120 +74,62 @@ void loadMemory(chip8 *c8, char **argv){
 
 }
 
-int goodkey(int keyInfo){
-	int good = 0;
-	switch(keyInfo){
-		case '1':
-			good = 1;
+uint16_t RegToScancode(uint8_t value){
+	uint16_t scan;
+	switch(value){
+		case 0x01:
+			scan = SDL_SCANCODE_1;
 			break;
-		case '2':
-			good = 1;
+		case 0x02:
+			scan = SDL_SCANCODE_2;
 			break;
-		case '3':
-			good = 1;
+		case 0x03:
+			scan = SDL_SCANCODE_3;
 			break;
-		case '4':
-			good = 1;
+		case 0x04:
+			scan = SDL_SCANCODE_Q;
 			break;
-		case 'q':
-			good = 1;
+		case 0x05:
+			scan = SDL_SCANCODE_W;
 			break;
-		case 'w':
-			good = 1;
+		case 0x06:
+			scan = SDL_SCANCODE_E;
 			break;
-		case 'e':
-			good = 1;
+		case 0x07:
+			scan = SDL_SCANCODE_A;
 			break;
-		case 'r':
-			good = 1;
+		case 0x08:
+			scan = SDL_SCANCODE_S;
 			break;
-		case 'a':
-			good = 1;
+		case 0x09:
+			scan = SDL_SCANCODE_D;
 			break;
-		case 's':
-			good = 1;
+		case 0x00:
+			scan = SDL_SCANCODE_X;
 			break;
-		case 'd':
-			good = 1;
+		case 0x0A:
+			scan = SDL_SCANCODE_Z;
 			break;
-		case 'f':
-			good = 1;
+		case 0x0B:
+			scan = SDL_SCANCODE_C;
 			break;
-		case 'z':
-			good = 1;
+		case 0x0C:
+			scan = SDL_SCANCODE_4;
 			break;
-		case 'x':
-			good = 1;
+		case 0x0D:
+			scan = SDL_SCANCODE_R;
 			break;
-		case 'c':
-			good = 1;
+		case 0x0E:
+			scan = SDL_SCANCODE_F;
 			break;
-		case 'v':
-			good = 1;
+		case 0x0F:
+			scan = SDL_SCANCODE_V;
 			break;
-		default:
-			good = 0;
-			break;
-	}
-	return good;
-}
-
-uint8_t determineKey(int keyInfo){
-	uint8_t key;
-	switch(keyInfo){
-		case '1':
-			key = 0x01;
-			break;
-		case '2':
-			key = 0x02;
-			break;
-		case '3':
-			key = 0x03;
-			break;
-		case '4':
-			key = 0x0c;
-			break;
-		case 'q':
-			key = 0x04;
-			break;
-		case 'w':
-			key = 0x05;
-			break;
-		case 'e':
-			key = 0x06;
-			break;
-		case 'r':
-			key = 0x0d;
-			break;
-		case 'a':
-			key = 0x07;
-			break;
-
-		case 's':
-			key = 0x08;
-			break;
-		case 'd':
-			key = 0x09;
-			break;
-		case 'f':
-			key = 0x0E;
-			break;
-		case 'z':
-			key = 0x0A;
-			break;
-		case 'x':
-			key = 0x00;
-			break;
-		case 'c':
-			key = 0x0B;
-			break;
-		case 'v':
-			key = 0x0F;
-			break;
-		default:
+		default: 
+			scan = SDL_SCANCODE_UNKNOWN;
 			break;
 	}
-	return key;
+	return scan;
 }
 
 void setScreen(screen *cs){
@@ -221,14 +169,14 @@ void writeBits(uint8_t *bits, uint8_t x, uint8_t y, chip8 *c8){
 	int i;
 	uint8_t flag = 0x00;
 	for(i = 0; i < 8; i++){
-		if(c8 -> chipScreen.binaryDisplay[x + i][y] == bits[i]){
-			c8 -> chipScreen.binaryDisplay[x + i][y] = BLACK;		//if both are white pixels or both are black pixel, the pixel will change to black: XOR mode
+		if(c8 -> chipScreen.binaryDisplay[(x + i) % SCREEN_W][y % SCREEN_W] == bits[i]){
+			c8 -> chipScreen.binaryDisplay[(x + i) % SCREEN_W][y % SCREEN_W] = BLACK;		//if both are white pixels or both are black pixel, the pixel will change to black: XOR mode
 			if(bits[i] == WHITE){
 				flag = 0x01;
 			}
 		}
 		else{
-			c8 -> chipScreen.binaryDisplay[x + i][y] = WHITE; 		//if there are different colors, then the pixel will change to WHITE
+			c8 -> chipScreen.binaryDisplay[(x + i) % SCREEN_W][y % SCREEN_W] = WHITE; 		//if there are different colors, then the pixel will change to WHITE
 		}
 	}	
 	c8 -> dataRegister[0xF] = flag;
