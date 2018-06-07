@@ -41,7 +41,7 @@ struct linkedList{
 
 typedef struct chip8{
 
-	uint16_t dataMemory[MEM_SIZE];		//Eash instruction is 2 bytes 0x0000 to 0xFFFF
+	uint8_t dataMemory[MEM_SIZE];		//Eash instruction is 2 bytes 0x0000 to 0xFFFF
 	uint8_t dataRegister[REG_LOCATIONS];	//Values in each reg are 1 byte. 0x00 to 0xFF
 	uint16_t iRegister;			//16 bits
 	uint16_t programCounter;			//2 bytes but only 12 bits will be used. 0x000 to 0xFFF b/c only 0xFFF memory locations. PC will probably start at 0x200.
@@ -54,7 +54,7 @@ typedef struct chip8{
 
 }chip8;
 
-uint16_t builtInSprites[49]; 	 
+uint8_t builtInSprites[81]; 	 
 
 uint16_t opcode;
 

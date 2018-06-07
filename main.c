@@ -9,8 +9,6 @@ int main(int argc, char **argv){
 	
 	chipInit(&c8);
 	loadMemory(&c8, argv);
-	c8.dataMemory[0x251] = 0x3F00;
-	c8.dataMemory[0x25F] = 0x3F00;
 
 /*	c8.dataRegister[0xB] = 0x3;
 	c8.dataRegister[0xA] = 0xF;
@@ -39,7 +37,7 @@ int main(int argc, char **argv){
 	uint16_t instruction;
 
 	while(c8.on){
-		instruction = c8.dataMemory[c8.programCounter];
+		instruction = (c8.dataMemory[c8.programCounter] << 8) | c8.dataMemory[c8.programCounter + 1];
 		printf("|%x at %x|\n", instruction, c8.programCounter);
 		user_entry = 0xFF;		//garbage value that no user can enter
 		while(SDL_PollEvent(&event)){

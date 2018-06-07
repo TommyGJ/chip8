@@ -197,7 +197,7 @@ void goToSubroutine(chip8 *c8, uint16_t code){	//For opcode 2NNN: execute subrou
 	c8 -> stack = push(c8 -> stack, returnAddr);
 
 	uint16_t addr = (code & 0xFFF);
-	printf("subroutine at%x\n", addr);
+//	printf("subroutine at%x\n", addr);
 	c8 -> programCounter = addr;
 }
 
@@ -377,24 +377,10 @@ void drawSprite(chip8 *c8, uint16_t code){  	//DXYN draw spite at the value stor
 	uint16_t addr = c8 -> iRegister;
 
 	uint8_t i;
-	uint8_t j;
 	uint8_t byteBits[9];		//8 bits + spot of '\0'
-	uint8_t Byte = 0x00; 
 
-	for(i = 0, j = 0; i < nBytes; i++){	
-		if ((c8 -> dataMemory[addr + j] >> 8)  == 0x00){
-			getBits(byteBits, c8 -> dataMemory[addr + j] & 0xFF);			// if data is of the form 0x00XX, which means there is only one byte
-			j++;
-		}
-		else if (Byte == 0){
-			getBits(byteBits, (c8 -> dataMemory[addr + j] >> 8) & 0xFF);		//Might seem a little crypitc but since each block of memory is 16 bits, i have to split it
-			Byte = c8 -> dataMemory[addr + j] & 0xFF;			//into 8 bit chuncks. The if statements deals with LS 8 bits and else deals with MS 8 bits
-		}
-		else if (Byte != 0){
-			getBits(byteBits, Byte);
-			j++;					//move to next address in memory
-			Byte = 0x00;
-		}
+	for(i = 0 ; i < nBytes; i++){	
+		getBits(byteBits, c8 -> dataMemory[addr + i]);
 		writeBits(byteBits,xValue, yValue, c8);
 		yValue++;
 	}	
@@ -416,7 +402,7 @@ void setHex(chip8 *c8, uint16_t code){		//FX29 set i register to the hex value s
 	uint8_t xValue = c8 -> dataRegister[regX];
 
 	if(xValue < 16){
-		c8 -> iRegister = xValue * 3;
+		c8 -> iRegister = xValue * 5;
 	}
 	else{
 		printf("attempt to access interpretrer memory\n");
@@ -461,9 +447,7 @@ void loadi(chip8 *c8, uint16_t code){		//FX65 fill register V0 to VX with data s
 	uint16_t addr = c8 -> iRegister;
 
 	for(startReg = 0x0; startReg <= regX; startReg++){
-		if(c8 -> dataMemory[addr + startReg] <= 0xFF){
-			 c8 -> dataRegister[startReg] = c8 -> dataMemory[addr + startReg];
-		}
+		 c8 -> dataRegister[startReg] = c8 -> dataMemory[addr + startReg];
 	}
 	c8 -> iRegister = addr + regX + 1;
 	pcIncr(c8);

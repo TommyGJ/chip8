@@ -34,7 +34,7 @@ struct linkedList *pop(struct linkedList *list){
 
 }
 void pcIncr(chip8 *c8){
-	c8 -> programCounter++;
+	c8 -> programCounter += 2;
 	if(c8 -> programCounter < 0x200){	//if an attempt is made to access memory not reserved for the interpreter, quit.
 		printf("attempt to acces memory out of range\n");
 		exit(0);
@@ -55,12 +55,12 @@ void loadMemory(chip8 *c8, char **argv){
 		exit(0);
 	}
 
-	uint16_t buffer;
+	uint8_t buffer;
 	int i = START_LOCATION;
 	
 	while(fread(&buffer, sizeof(buffer), 1, rom)){
-		c8 -> dataMemory[i] = ntohs(buffer);
-//		printf("%#06x at location %x\n", c8 -> dataMemory[i], i);
+		c8 -> dataMemory[i] = buffer;
+//		printf("%#04x at location %x\n", c8 -> dataMemory[i], i);
 		i++;
 	}
 	c8 -> dataMemory[i] = '\0';
@@ -234,7 +234,7 @@ void writeBits(uint8_t *bits, uint8_t x, uint8_t y, chip8 *c8){
 	c8 -> dataRegister[0xF] = flag;
 }
 
-void loadSprites(uint16_t *sprites, uint16_t *memory){
+void loadSprites(uint8_t *sprites, uint8_t *memory){
 	uint16_t start;
 
 	for(start = 0x000; sprites[start] != '\0'; start++){
