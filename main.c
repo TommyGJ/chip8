@@ -38,7 +38,7 @@ int main(int argc, char **argv){
 
 	while(c8.on){
 		instruction = (c8.dataMemory[c8.programCounter] << 8) | c8.dataMemory[c8.programCounter + 1];
-		printf("|%x at %x|\n", instruction, c8.programCounter);
+//		printf("|%x at %x|\n", instruction, c8.programCounter);
 		user_entry = 0xFF;		//garbage value that no user can enter
 		while(SDL_PollEvent(&event)){
 			switch(event.type){
@@ -205,7 +205,7 @@ int main(int argc, char **argv){
 				printf("invalid instruction\n");
 				exit(1);
 		}
-		printf("V0 = %x ", c8.dataRegister[0x0]);
+/*		printf("V0 = %x ", c8.dataRegister[0x0]);
 		printf("V1 = %x ", c8.dataRegister[0x1]);
 		printf("V2 = %x ", c8.dataRegister[0x2]);
 		printf("V3 = %x ", c8.dataRegister[0x3]);
@@ -222,7 +222,7 @@ int main(int argc, char **argv){
 		printf("Ve = %x ", c8.dataRegister[0xE]);
 		printf("Vf = %x\n", c8.dataRegister[0xF]);
 		printf("I = %x\n", c8.iRegister);
-
+*/
 
 		SDL_Delay(REFRESH_RATE);
 		countTimer(&c8);
