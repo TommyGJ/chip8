@@ -23,7 +23,6 @@
 #define WHITE 0x1
 #define BLACK 0x0
 
-//uint16_t htons(uint16_t);	//used to convert to big endian
 typedef struct screen{
 	const char *name;
 	SDL_Window *window;
@@ -33,10 +32,14 @@ typedef struct screen{
 	
 
 }screen;
-struct linkedList{
-		uint16_t address;
-		struct linkedList *next;
-		int location;
+struct subroutineStack{
+		uint8_t size;
+		struct node *head;
+};
+struct node{
+	uint16_t address;
+	struct node *next;
+	int location;
 };
 
 typedef struct chip8{
@@ -50,7 +53,7 @@ typedef struct chip8{
 	uint8_t on;
 		
 	screen chipScreen;
-	struct linkedList *stack; 
+	struct subroutineStack *stack; 
 
 }chip8;
 

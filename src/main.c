@@ -221,7 +221,7 @@ int main(int argc, char **argv){
 
 */
 
-		SDL_Delay(8);
+		SDL_Delay(4);
 		countTimer(&c8);
 	}
 }

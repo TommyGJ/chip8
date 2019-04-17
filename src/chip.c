@@ -25,7 +25,7 @@ void chipInit(chip8 *c8){
 	c8 -> iRegister = 0x0;
 	c8 -> delayTimer = 0x0;
 	c8 -> soundTimer = 0x0;
-	c8 -> stack = NULL;
+	c8 -> stack = stack_init();
 	memset(c8 -> dataRegister, 0x00, REG_LOCATIONS * sizeof(uint8_t));
 	memset(c8 -> dataMemory, 0x00, MEM_SIZE * sizeof(uint8_t));
 	memset(c8 -> chipScreen.binaryDisplay,BLACK ,SCREEN_W * SCREEN_H * sizeof(c8 -> chipScreen.binaryDisplay[0][0]));

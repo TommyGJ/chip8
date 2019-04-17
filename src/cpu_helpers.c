@@ -1,18 +1,29 @@
 #include "chip.h"
-void updateLocations(struct linkedList *, int);
-struct linkedList *push(struct linkedList *list, uint16_t data){
-	struct linkedList *newEntry;
-	if((newEntry = (struct linkedList *)malloc(sizeof(struct linkedList))) == NULL){
+void updateLocations(struct subroutineStack *, int);
+struct subroutineStack *stack_init(void){
+	struct subroutineStack *stack = (struct subroutineStack *)malloc(sizeof(struct subroutineStack));
+	if(stack == NULL){
 		exit(0);
 	}
-	newEntry -> next = list;
+	stack -> size = 0;
+	stack -> head = NULL;
+	return stack;
+}
+struct subroutineStack *push(struct subroutineStack *stack, uint16_t data){
+	struct node *newEntry;
+	if((newEntry = (struct node *)malloc(sizeof(struct node))) == NULL){
+		exit(0);
+	}
+	newEntry -> next = stack -> head;
 	newEntry -> address = data;
+	(stack -> size)++;
+	stack -> head = newEntry;
 	
-	updateLocations(newEntry, 0);	
-	return newEntry;	
+	//updateLocations(newEntry, 0);	
+	return stack;	
 }
 
-void updateLocations(struct linkedList *list, int entry){
+/*void updateLocations(struct node *list, int entry){
 	if(entry == 16){
 		printf("out of bounds");
 		exit(0);
@@ -21,29 +32,49 @@ void updateLocations(struct linkedList *list, int entry){
 		list -> location = entry;
 		updateLocations(list -> next, entry + 1);
 	}
-}
-struct linkedList *pop(struct linkedList *list){
-	if(list == NULL){
-		return NULL;
+}*/
+struct subroutineStack *pop(struct subroutineStack *stack){
+	if(stack -> size == 0){
+		 fprintf( stderr, "Subroutine exit call when stack is empty");
+		 exit(1);
 	}
-	struct linkedList *newHead = list -> next;
-	free(list);
+	struct node* temp = stack -> head;
+	stack -> head = stack -> head -> next;
+	free(temp);
+	(stack -> size)--;
 
-	updateLocations(newHead, 0);
-	return newHead;
+//	updateLocations(newHead, 0);
+	return stack;
 
 }
-void printStack(struct linkedList *list){
-	if(list != NULL){
-		printf("stack info: %i %x\n", list -> location, list -> address);
-		printStack(list -> next);
+struct subroutineStack *peek(struct subroutineStack *stack){
+	if(stack -> size == 0){
+		 fprintf( stderr, "Subroutine exit call when stack is empty");
+		 exit(1);
+	}
+//	updateLocations(newHead, 0);
+	return stack -> head -> address;
+}
+
+void printStack(struct subroutineStack *stack){
+	struct node* stack_ptr = stack -> head;
+	if(stack -> size == 0){
+		printf("Empty stack\n");
+	}
+	else{
+		int i;
+		for(i = stack -> size; i > 0; i--){
+			printf("stack info: %x\n", stack_ptr -> address);
+			stack_ptr = stack_ptr -> next;
+		}
 	}
 }
 void pcIncr(chip8 *c8){
 	c8 -> programCounter += 2;
 	if(c8 -> programCounter < 0x200){	//if an attempt is made to access memory not reserved for the interpreter, quit.
-		printf("attempt to acces memory out of range\n");
-		exit(0);
+		printf("%x\n",c8 -> programCounter);
+		printf("attempt to access memory out of range in pcIncr\n");
+		exit(1);
 	}
 	if(c8 -> programCounter >= 0xFFF){	//if an attempt is made to access memory not inbounds, quit.
 		printf("exceeds memory\n");

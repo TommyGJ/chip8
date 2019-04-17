@@ -202,7 +202,7 @@ void goToSubroutine(chip8 *c8, uint16_t code){	//For opcode 2NNN: execute subrou
 }
 
 void returnSubroutine(chip8 *c8, uint16_t code){	//For opcode 00EE: return from subroutine
-	uint16_t returnAddr = c8 -> stack -> address;
+	uint16_t returnAddr = peek(c8 -> stack);
 	c8 -> programCounter = returnAddr;
 
 	c8 -> stack = pop(c8 -> stack);			//pop this address from the stack

@@ -2,13 +2,17 @@
 
 #ifndef CPU_HELPERS_H
 #define CPU_HELPERS_H
-void updateLocations(struct linkedList *, int);
+void updateLocations(struct subroutineStack*, int);
 
-struct linkedList *push(struct linkedList *, uint16_t);
+struct subroutineStack *push(struct subroutineStack*, uint16_t);
 
-struct linkedList *pop(struct linkedList *);
+struct subroutineStack *pop(struct subroutineStack*);
 
-void printStack(struct linkedList *);
+struct subroutineStack *peek(struct subroutineStack *);
+
+struct subroutineStack *stack_init(void);
+
+void printStack(struct subroutineStack *);
 
 void pcIncr(chip8 *);
 
