@@ -1,0 +1,7110 @@
+successful initialization
+|124e at 200|
+pc = 512
+iRegister = 0
+reg location at 0 is 0
+reg location at 1 is 0
+reg location at 2 is 0
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|e0 at 24e|
+pc = 590
+iRegister = 0
+reg location at 0 is 0
+reg location at 1 is 0
+reg location at 2 is 0
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|6200 at 250|
+pc = 592
+iRegister = 0
+reg location at 0 is 0
+reg location at 1 is 0
+reg location at 2 is 0
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|222a at 252|
+pc = 594
+iRegister = 0
+reg location at 0 is 0
+reg location at 1 is 0
+reg location at 2 is 0
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 22a|
+pc = 554
+iRegister = 0
+reg location at 0 is 0
+reg location at 1 is 0
+reg location at 2 is 0
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 22c|
+pc = 556
+iRegister = 514
+reg location at 0 is 0
+reg location at 1 is 0
+reg location at 2 is 0
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 22e|
+pc = 558
+iRegister = 514
+reg location at 0 is 0
+reg location at 1 is 0
+reg location at 2 is 0
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 230|
+pc = 560
+iRegister = 514
+reg location at 0 is 0
+reg location at 1 is 0
+reg location at 2 is 0
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f165 at 232|
+pc = 562
+iRegister = 514
+reg location at 0 is 0
+reg location at 1 is 0
+reg location at 2 is 0
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 234|
+pc = 564
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 0
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f229 at 254|
+pc = 596
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 0
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|d015 at 256|
+pc = 598
+iRegister = 0
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 0
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|70ff at 258|
+pc = 600
+iRegister = 0
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 0
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|71ff at 25a|
+pc = 602
+iRegister = 0
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 0
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|2236 at 25c|
+pc = 604
+iRegister = 0
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 0
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 236|
+pc = 566
+iRegister = 0
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 0
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 238|
+pc = 568
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 0
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 23a|
+pc = 570
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 23c|
+pc = 572
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f155 at 23e|
+pc = 574
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 240|
+pc = 576
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|7201 at 25e|
+pc = 606
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|3210 at 260|
+pc = 608
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|1252 at 262|
+pc = 610
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|222a at 252|
+pc = 594
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 22a|
+pc = 554
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 22c|
+pc = 556
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 22e|
+pc = 558
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 230|
+pc = 560
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f165 at 232|
+pc = 562
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 234|
+pc = 564
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f229 at 254|
+pc = 596
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|d015 at 256|
+pc = 598
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|70ff at 258|
+pc = 600
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|71ff at 25a|
+pc = 602
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|2236 at 25c|
+pc = 604
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|a202 at 236|
+pc = 566
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|820e at 238|
+pc = 568
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 23a|
+pc = 570
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 23c|
+pc = 572
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f155 at 23e|
+pc = 574
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 240|
+pc = 576
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|7201 at 25e|
+pc = 606
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|3210 at 260|
+pc = 608
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|1252 at 262|
+pc = 610
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|222a at 252|
+pc = 594
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 22a|
+pc = 554
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 22c|
+pc = 556
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 22e|
+pc = 558
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 230|
+pc = 560
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f165 at 232|
+pc = 562
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 234|
+pc = 564
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f229 at 254|
+pc = 596
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|d015 at 256|
+pc = 598
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|70ff at 258|
+pc = 600
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|71ff at 25a|
+pc = 602
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|2236 at 25c|
+pc = 604
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 236|
+pc = 566
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 238|
+pc = 568
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 23a|
+pc = 570
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 23c|
+pc = 572
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f155 at 23e|
+pc = 574
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 240|
+pc = 576
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|7201 at 25e|
+pc = 606
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|3210 at 260|
+pc = 608
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|1252 at 262|
+pc = 610
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|222a at 252|
+pc = 594
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 22a|
+pc = 554
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 22c|
+pc = 556
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 22e|
+pc = 558
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 230|
+pc = 560
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f165 at 232|
+pc = 562
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 234|
+pc = 564
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f229 at 254|
+pc = 596
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|d015 at 256|
+pc = 598
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|70ff at 258|
+pc = 600
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|71ff at 25a|
+pc = 602
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|2236 at 25c|
+pc = 604
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|a202 at 236|
+pc = 566
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|820e at 238|
+pc = 568
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 23a|
+pc = 570
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 23c|
+pc = 572
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f155 at 23e|
+pc = 574
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 240|
+pc = 576
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|7201 at 25e|
+pc = 606
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|3210 at 260|
+pc = 608
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|1252 at 262|
+pc = 610
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|222a at 252|
+pc = 594
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 22a|
+pc = 554
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 22c|
+pc = 556
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 22e|
+pc = 558
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 230|
+pc = 560
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f165 at 232|
+pc = 562
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 234|
+pc = 564
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f229 at 254|
+pc = 596
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|d015 at 256|
+pc = 598
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|70ff at 258|
+pc = 600
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|71ff at 25a|
+pc = 602
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|2236 at 25c|
+pc = 604
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 236|
+pc = 566
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 238|
+pc = 568
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 23a|
+pc = 570
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 23c|
+pc = 572
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f155 at 23e|
+pc = 574
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 240|
+pc = 576
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|7201 at 25e|
+pc = 606
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|3210 at 260|
+pc = 608
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|1252 at 262|
+pc = 610
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|222a at 252|
+pc = 594
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 22a|
+pc = 554
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 22c|
+pc = 556
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 22e|
+pc = 558
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 230|
+pc = 560
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f165 at 232|
+pc = 562
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 234|
+pc = 564
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f229 at 254|
+pc = 596
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|d015 at 256|
+pc = 598
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|70ff at 258|
+pc = 600
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|71ff at 25a|
+pc = 602
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|2236 at 25c|
+pc = 604
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|a202 at 236|
+pc = 566
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|820e at 238|
+pc = 568
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 23a|
+pc = 570
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 23c|
+pc = 572
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f155 at 23e|
+pc = 574
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 240|
+pc = 576
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|7201 at 25e|
+pc = 606
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|3210 at 260|
+pc = 608
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|1252 at 262|
+pc = 610
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|222a at 252|
+pc = 594
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 22a|
+pc = 554
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 22c|
+pc = 556
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 22e|
+pc = 558
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 230|
+pc = 560
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f165 at 232|
+pc = 562
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 234|
+pc = 564
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f229 at 254|
+pc = 596
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|d015 at 256|
+pc = 598
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|70ff at 258|
+pc = 600
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|71ff at 25a|
+pc = 602
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|2236 at 25c|
+pc = 604
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 236|
+pc = 566
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 238|
+pc = 568
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 23a|
+pc = 570
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 23c|
+pc = 572
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f155 at 23e|
+pc = 574
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 240|
+pc = 576
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|7201 at 25e|
+pc = 606
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|3210 at 260|
+pc = 608
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|1252 at 262|
+pc = 610
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|222a at 252|
+pc = 594
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 22a|
+pc = 554
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 22c|
+pc = 556
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 22e|
+pc = 558
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 230|
+pc = 560
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f165 at 232|
+pc = 562
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 234|
+pc = 564
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f229 at 254|
+pc = 596
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|d015 at 256|
+pc = 598
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|70ff at 258|
+pc = 600
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|71ff at 25a|
+pc = 602
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|2236 at 25c|
+pc = 604
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|a202 at 236|
+pc = 566
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|820e at 238|
+pc = 568
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 23a|
+pc = 570
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 23c|
+pc = 572
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f155 at 23e|
+pc = 574
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 240|
+pc = 576
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|7201 at 25e|
+pc = 606
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|3210 at 260|
+pc = 608
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|1252 at 262|
+pc = 610
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|222a at 252|
+pc = 594
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 22a|
+pc = 554
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 22c|
+pc = 556
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 22e|
+pc = 558
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 230|
+pc = 560
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f165 at 232|
+pc = 562
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 234|
+pc = 564
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f229 at 254|
+pc = 596
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|d015 at 256|
+pc = 598
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|70ff at 258|
+pc = 600
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|71ff at 25a|
+pc = 602
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|2236 at 25c|
+pc = 604
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 236|
+pc = 566
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 238|
+pc = 568
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 23a|
+pc = 570
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 23c|
+pc = 572
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f155 at 23e|
+pc = 574
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 240|
+pc = 576
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|7201 at 25e|
+pc = 606
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|3210 at 260|
+pc = 608
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|1252 at 262|
+pc = 610
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|222a at 252|
+pc = 594
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 22a|
+pc = 554
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 22c|
+pc = 556
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 22e|
+pc = 558
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 230|
+pc = 560
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f165 at 232|
+pc = 562
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 234|
+pc = 564
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f229 at 254|
+pc = 596
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|d015 at 256|
+pc = 598
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|70ff at 258|
+pc = 600
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|71ff at 25a|
+pc = 602
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|2236 at 25c|
+pc = 604
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|a202 at 236|
+pc = 566
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|820e at 238|
+pc = 568
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 23a|
+pc = 570
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 23c|
+pc = 572
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f155 at 23e|
+pc = 574
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 240|
+pc = 576
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|7201 at 25e|
+pc = 606
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|3210 at 260|
+pc = 608
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|1252 at 262|
+pc = 610
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|222a at 252|
+pc = 594
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 22a|
+pc = 554
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 22c|
+pc = 556
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 22e|
+pc = 558
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 230|
+pc = 560
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f165 at 232|
+pc = 562
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 234|
+pc = 564
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f229 at 254|
+pc = 596
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|d015 at 256|
+pc = 598
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|70ff at 258|
+pc = 600
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|71ff at 25a|
+pc = 602
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|2236 at 25c|
+pc = 604
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 236|
+pc = 566
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 238|
+pc = 568
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 23a|
+pc = 570
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 23c|
+pc = 572
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f155 at 23e|
+pc = 574
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 240|
+pc = 576
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|7201 at 25e|
+pc = 606
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|3210 at 260|
+pc = 608
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|1252 at 262|
+pc = 610
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|222a at 252|
+pc = 594
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 22a|
+pc = 554
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 22c|
+pc = 556
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 22e|
+pc = 558
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 230|
+pc = 560
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f165 at 232|
+pc = 562
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 234|
+pc = 564
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f229 at 254|
+pc = 596
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|d015 at 256|
+pc = 598
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|70ff at 258|
+pc = 600
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|71ff at 25a|
+pc = 602
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|2236 at 25c|
+pc = 604
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|a202 at 236|
+pc = 566
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|820e at 238|
+pc = 568
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 23a|
+pc = 570
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 23c|
+pc = 572
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f155 at 23e|
+pc = 574
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 240|
+pc = 576
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|7201 at 25e|
+pc = 606
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|3210 at 260|
+pc = 608
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|1252 at 262|
+pc = 610
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|222a at 252|
+pc = 594
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 22a|
+pc = 554
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 22c|
+pc = 556
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 22e|
+pc = 558
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 230|
+pc = 560
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f165 at 232|
+pc = 562
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 234|
+pc = 564
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f229 at 254|
+pc = 596
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|d015 at 256|
+pc = 598
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|70ff at 258|
+pc = 600
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|71ff at 25a|
+pc = 602
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|2236 at 25c|
+pc = 604
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 236|
+pc = 566
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 238|
+pc = 568
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 23a|
+pc = 570
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 23c|
+pc = 572
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f155 at 23e|
+pc = 574
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 240|
+pc = 576
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|7201 at 25e|
+pc = 606
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|3210 at 260|
+pc = 608
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|1252 at 262|
+pc = 610
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|222a at 252|
+pc = 594
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 22a|
+pc = 554
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 22c|
+pc = 556
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 22e|
+pc = 558
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 230|
+pc = 560
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f165 at 232|
+pc = 562
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 234|
+pc = 564
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f229 at 254|
+pc = 596
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|d015 at 256|
+pc = 598
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|70ff at 258|
+pc = 600
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|71ff at 25a|
+pc = 602
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|2236 at 25c|
+pc = 604
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|a202 at 236|
+pc = 566
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|820e at 238|
+pc = 568
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 23a|
+pc = 570
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 23c|
+pc = 572
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f155 at 23e|
+pc = 574
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 240|
+pc = 576
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|7201 at 25e|
+pc = 606
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|3210 at 260|
+pc = 608
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|1252 at 262|
+pc = 610
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|222a at 252|
+pc = 594
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 22a|
+pc = 554
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 22c|
+pc = 556
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 22e|
+pc = 558
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 230|
+pc = 560
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f165 at 232|
+pc = 562
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 234|
+pc = 564
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f229 at 254|
+pc = 596
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|d015 at 256|
+pc = 598
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|70ff at 258|
+pc = 600
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|71ff at 25a|
+pc = 602
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|2236 at 25c|
+pc = 604
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 236|
+pc = 566
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 238|
+pc = 568
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 23a|
+pc = 570
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 23c|
+pc = 572
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f155 at 23e|
+pc = 574
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 240|
+pc = 576
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|7201 at 25e|
+pc = 606
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|3210 at 260|
+pc = 608
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|1252 at 262|
+pc = 610
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|222a at 252|
+pc = 594
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|a202 at 22a|
+pc = 554
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|820e at 22c|
+pc = 556
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 5
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 22e|
+pc = 558
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 230|
+pc = 560
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f165 at 232|
+pc = 562
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 234|
+pc = 564
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f229 at 254|
+pc = 596
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|d015 at 256|
+pc = 598
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|70ff at 258|
+pc = 600
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|71ff at 25a|
+pc = 602
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|2236 at 25c|
+pc = 604
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|a202 at 236|
+pc = 566
+iRegister = 20
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+|820e at 238|
+pc = 568
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 1
+delayTimer = 0
+soundTimer = 0
+0
+|f21e at 23a|
+pc = 570
+iRegister = 514
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|8206 at 23c|
+pc = 572
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 10
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|f155 at 23e|
+pc = 574
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|ee at 240|
+pc = 576
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0
+|7201 at 25e|
+pc = 606
+iRegister = 530
+reg location at 0 is 8
+reg location at 1 is 19
+reg location at 2 is 4
+reg location at 3 is 0
+reg location at 4 is 0
+reg location at 5 is 0
+reg location at 6 is 0
+reg location at 7 is 0
+reg location at 8 is 0
+reg location at 9 is 0
+reg location at a is 0
+reg location at b is 0
+reg location at c is 0
+reg location at d is 0
+reg location at e is 0
+reg location at f is 0
+delayTimer = 0
+soundTimer = 0

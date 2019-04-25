@@ -38,6 +38,8 @@ int main(int argc, char **argv){
 	while(c8.on){
 		instruction = (c8.dataMemory[c8.programCounter] << 8) | c8.dataMemory[c8.programCounter + 1];
 		printf("|%x at %x|\n", instruction, c8.programCounter);
+		Output_Cpu(c8);
+
 //		printStack(c8.stack);
 //		printf("HIT\n");
 		while(SDL_PollEvent(&event)){
@@ -221,7 +223,7 @@ int main(int argc, char **argv){
 
 */
 
-		SDL_Delay(4);
+		SDL_Delay(20);
 		countTimer(&c8);
 	}
 }

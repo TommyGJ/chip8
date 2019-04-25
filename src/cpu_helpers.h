@@ -4,11 +4,13 @@
 #define CPU_HELPERS_H
 void updateLocations(struct subroutineStack*, int);
 
+void Output_Cpu(chip8);
+
 struct subroutineStack *push(struct subroutineStack*, uint16_t);
 
 struct subroutineStack *pop(struct subroutineStack*);
 
-struct subroutineStack *peek(struct subroutineStack *);
+uint16_t peek(struct subroutineStack *);
 
 struct subroutineStack *stack_init(void);
 

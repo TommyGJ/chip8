@@ -135,20 +135,24 @@ void rightShift(chip8 *c8, uint16_t code){	//opcode 8XY6. Shift value in VY righ
 	uint8_t regY = (code >> 4) & 0xF;
 
 	uint8_t yValue = c8 -> dataRegister[regY];
+	uint8_t xValue = c8 -> dataRegister[regX];
 	
-	c8 -> dataRegister[0xF] = yValue & 0x1;		//store least significant bit in VF
+	c8 -> dataRegister[0xF] = xValue & 0x1;		//store least significant bit in VF
 	c8 -> dataRegister[regX] = yValue >> 1;		//store the VY shifter to the right one bit in VX
 	pcIncr(c8);
 
 }
 
-void leftShift(chip8 *c8, uint16_t code){		//opcode 8XY5. Shift value in VY left one bit and store it in VX
+void leftShift(chip8 *c8, uint16_t code){		//opcode 8XYE. Shift value in VY left one bit and store it in VX
 	uint8_t regX = (code >> 8) & 0xF;
 	uint8_t regY = (code >> 4) & 0xF;
+	printf("%x\n", regY);
+
 
 	uint8_t yValue = c8 -> dataRegister[regY];
+	uint8_t xValue = c8 -> dataRegister[regX];
 
-	c8 -> dataRegister[0xF] = (yValue >> 7) & 0x1;		//store the most significant bit in VF.
+	c8 -> dataRegister[0xF] = (xValue >> 7) & 0x1;		//store the most significant bit in VF.
         c8 -> dataRegister[regX] = yValue << 1;	
 	pcIncr(c8);
 
@@ -293,96 +297,75 @@ void waitKeypress(chip8 *c8, uint16_t code){		//FX0A wait for a key press and st
 	const Uint8 *states = SDL_GetKeyboardState( NULL );
 
 	uint8_t pressed = 0;
-	
-	if(states[SDL_SCANCODE_1]){
-		pressed = 1;
-		c8 -> dataRegister[regX] = 0x01;
-	}
-	else if(states[SDL_SCANCODE_2]){
-		pressed = 1;
-		c8 -> dataRegister[regX] = 0x02;
+	while(!pressed){
+		if(states[SDL_SCANCODE_1]){
+			pressed = 1;
+			c8 -> dataRegister[regX] = 0x01;
+		}
+		else if(states[SDL_SCANCODE_2]){
+			pressed = 1;
+			c8 -> dataRegister[regX] = 0x02;
+		}
+
+		else if(states[SDL_SCANCODE_3]){
+			pressed = 1;
+			c8 -> dataRegister[regX] = 0x03;
+		}
+		else if(states[SDL_SCANCODE_4]){
+			pressed = 1;
+			c8 -> dataRegister[regX] = 0x0C;
+		}
+		else if(states[SDL_SCANCODE_Q]){
+			pressed = 1;
+			c8 -> dataRegister[regX] = 0x04;
+		}
+		else if(states[SDL_SCANCODE_W]){
+			pressed = 1;
+			c8 -> dataRegister[regX] = 0x05;
+		}
+		else if(states[SDL_SCANCODE_E]){
+			pressed = 1;
+			c8 -> dataRegister[regX] = 0x06;
+		}
+		else if(states[SDL_SCANCODE_R]){
+			pressed = 1;
+			c8 -> dataRegister[regX] = 0x0D;
+		}
+		else if(states[SDL_SCANCODE_A]){
+			pressed = 1;
+			c8 -> dataRegister[regX] = 0x07;
+		}
+		else if(states[SDL_SCANCODE_S]){
+			pressed = 1;
+			c8 -> dataRegister[regX] = 0x08;
+		}
+		else if(states[SDL_SCANCODE_D]){
+			pressed = 1;
+			c8 -> dataRegister[regX] = 0x09;
+		}
+		else if(states[SDL_SCANCODE_F]){
+			pressed = 1;
+			c8 -> dataRegister[regX] = 0x0E;
+		}
+		else if(states[SDL_SCANCODE_Z]){
+			pressed = 1;
+			c8 -> dataRegister[regX] = 0x0A;
+		}
+		else if(states[SDL_SCANCODE_X]){
+			pressed = 1;
+			c8 -> dataRegister[regX] = 0x00;
+		}
+		else if(states[SDL_SCANCODE_C]){
+			pressed = 1;
+			c8 -> dataRegister[regX] = 0x0B;
+		}
+		else if(states[SDL_SCANCODE_V]){
+			pressed = 1;
+			c8 -> dataRegister[regX] = 0x0F;
+		}
 	}
 
-	else if(states[SDL_SCANCODE_3]){
-		pressed = 1;
-		c8 -> dataRegister[regX] = 0x03;
-	}
-	else if(states[SDL_SCANCODE_4]){
-		pressed = 1;
-		c8 -> dataRegister[regX] = 0x0C;
-	}
-	else if(states[SDL_SCANCODE_Q]){
-		pressed = 1;
-		c8 -> dataRegister[regX] = 0x04;
-	}
-	else if(states[SDL_SCANCODE_W]){
-		pressed = 1;
-		c8 -> dataRegister[regX] = 0x05;
-	}
-	else if(states[SDL_SCANCODE_E]){
-		pressed = 1;
-		c8 -> dataRegister[regX] = 0x06;
-	}
-	else if(states[SDL_SCANCODE_R]){
-		pressed = 1;
-		c8 -> dataRegister[regX] = 0x0D;
-	}
-	else if(states[SDL_SCANCODE_A]){
-		pressed = 1;
-		c8 -> dataRegister[regX] = 0x07;
-	}
-	else if(states[SDL_SCANCODE_S]){
-		pressed = 1;
-		c8 -> dataRegister[regX] = 0x08;
-	}
-	else if(states[SDL_SCANCODE_D]){
-		pressed = 1;
-		c8 -> dataRegister[regX] = 0x09;
-	}
-	else if(states[SDL_SCANCODE_F]){
-		pressed = 1;
-		c8 -> dataRegister[regX] = 0x0E;
-	}
-	else if(states[SDL_SCANCODE_Z]){
-		pressed = 1;
-		c8 -> dataRegister[regX] = 0x0A;
-	}
-	else if(states[SDL_SCANCODE_X]){
-		pressed = 1;
-		c8 -> dataRegister[regX] = 0x00;
-	}
-	else if(states[SDL_SCANCODE_C]){
-		pressed = 1;
-		c8 -> dataRegister[regX] = 0x0B;
-	}
-	else if(states[SDL_SCANCODE_V]){
-		pressed = 1;
-		c8 -> dataRegister[regX] = 0x0F;
-	}
-
-//	int listen = 1;
-//	while(listen){
-//		while(SDL_PollEvent(&keypress)){
-//			switch(keypress.type){
-//				case SDL_KEYDOWN:
-//					if (goodkey(keypress.key.keysym.sym)){
-//						listen = 0;
-//						c8 -> dataRegister[regX] = determineKey(keypress.key.keysym.sym);
-//					}
-//					break;
-//				case SDL_QUIT:
-//					chipQuit(c8);
-//					exit(0);
-//					break;
-//				default:
-//					break;
-//			}
-//		}
-//	}
-//	
-	if (pressed == 1){
-		pcIncr(c8);
-	}
+	pcIncr(c8);
 }
 	
 
@@ -511,7 +494,7 @@ void storei(chip8 *c8, uint16_t code){		//FX55 store values of V0 to VX inclusiv
 	for(startReg = 0x0; startReg <= regX; startReg++){
 		c8 -> dataMemory[addr + startReg] = c8 -> dataRegister[startReg];
 	}
-	c8 -> iRegister = addr + regX + 1;
+	//c8 -> iRegister = addr + regX + 1;
 	pcIncr(c8);
 }
 
@@ -523,7 +506,7 @@ void loadi(chip8 *c8, uint16_t code){		//FX65 fill register V0 to VX with data s
 	for(startReg = 0x0; startReg <= regX; startReg++){
 		 c8 -> dataRegister[startReg] = c8 -> dataMemory[addr + startReg];
 	}
-	c8 -> iRegister = addr + regX + 1;
+	//c8 -> iRegister = addr + regX + 1;
 	pcIncr(c8);
 
 }

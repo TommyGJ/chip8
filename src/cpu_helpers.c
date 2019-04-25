@@ -9,6 +9,17 @@ struct subroutineStack *stack_init(void){
 	stack -> head = NULL;
 	return stack;
 }
+void Output_Cpu(chip8 c8){
+	printf("pc = %i\n", c8.programCounter);
+	printf("iRegister = %i\n", c8.iRegister);
+	for(int i = 0; i < REG_LOCATIONS; i++){
+		printf("reg location at %x is %x\n", i, c8.dataRegister[i]);
+	}
+	printf("delayTimer = %i\n", c8.delayTimer);
+	printf("soundTimer = %i\n", c8.soundTimer);
+	return;
+
+}
 struct subroutineStack *push(struct subroutineStack *stack, uint16_t data){
 	struct node *newEntry;
 	if((newEntry = (struct node *)malloc(sizeof(struct node))) == NULL){
@@ -47,13 +58,13 @@ struct subroutineStack *pop(struct subroutineStack *stack){
 	return stack;
 
 }
-struct subroutineStack *peek(struct subroutineStack *stack){
+uint16_t peek(struct subroutineStack *stack){
 	if(stack -> size == 0){
 		 fprintf( stderr, "Subroutine exit call when stack is empty");
 		 exit(1);
 	}
 //	updateLocations(newHead, 0);
-	return stack -> head -> address;
+	return (stack -> head) -> address;
 }
 
 void printStack(struct subroutineStack *stack){
